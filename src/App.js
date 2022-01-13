@@ -17,7 +17,7 @@ function App() {
               Привет, меня зовут Юрий, и я создаю классные сайты
             </h1>
             <Button text='Обо мне' classes='header__wave-btn button' link='#about' />
-            <img src="images/down-arrow.svg" alt="" className="header-arrow" />
+            <img src="images/down-arrow.svg" alt="Arrow down" className="header-arrow" />
           </div>
         </div>
       </header >
@@ -66,7 +66,7 @@ function App() {
           <h3 className="section__title">Последние работы</h3>
           <div className="works__inner">
             {data.cards &&
-              data.cards.map((item, index) => <Cart key={index} buttonText={item.buttonText} images={item.images} link={item.link} />)
+              data.cards.map((item, index) => <Cart key={index} {...item} />)
             }
           </div>
         </div>
