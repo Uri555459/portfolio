@@ -1,9 +1,137 @@
 {
   "cards": [
     {
+      "id": "1",
+      "category": "html",
       "buttonText": "подробнее",
-      "images": "images/works/1.jpg",
-      "link": ""
+      "images": "images/works/armchairs.jpg",
+      "link": "https://uri555459.github.io/armchairs"
+    },
+    {
+      "id": "2",
+      "category": "html",
+      "buttonText": "подробнее",
+      "images": "images/works/beer-house.jpg",
+      "link": "https://uri555459.github.io/beer-house"
+    },
+    {
+      "id": "3",
+      "category": "html",
+      "buttonText": "подробнее",
+      "images": "images/works/Business.jpg",
+      "link": "https://uri555459.github.io/Business"
+    },
+    {
+      "id": "4",
+      "category": "html",
+      "buttonText": "подробнее",
+      "images": "images/works/Drovosos.jpg",
+      "link": "https://uri555459.github.io/Drovosos"
+    },
+    {
+      "id": "5",
+      "category": "html",
+      "buttonText": "подробнее",
+      "images": "images/works/fireplaces.jpg",
+      "link": "https://uri555459.github.io/fireplaces"
+    },
+    {
+      "id": "6",
+      "category": "html",
+      "buttonText": "подробнее",
+      "images": "images/works/Flaby.jpg",
+      "link": "https://uri555459.github.io/Flaby"
+    },
+    {
+      "id": "7",
+      "category": "html",
+      "buttonText": "подробнее",
+      "images": "images/works/hopeiko.jpg",
+      "link": "https://uri555459.github.io/hopeiko"
+    },
+    {
+      "id": "8",
+      "category": "html",
+      "buttonText": "подробнее",
+      "images": "images/works/Horizontal-bars.jpg",
+      "link": "https://uri555459.github.io/Horizontal-bars"
+    },
+    {
+      "id": "9",
+      "category": "html",
+      "buttonText": "подробнее",
+      "images": "images/works/makromir.jpg",
+      "link": "https://uri555459.github.io/makromir"
+    },
+    {
+      "id": "10",
+      "category": "html",
+      "buttonText": "подробнее",
+      "images": "images/works/OSAGO.jpg",
+      "link": "https://uri555459.github.io/OSAGO"
+    },
+    {
+      "id": "11",
+      "category": "html",
+      "buttonText": "подробнее",
+      "images": "images/works/PROstyle.jpg",
+      "link": "https://uri555459.github.io/PROstyle"
+    },
+    {
+      "id": "12",
+      "category": "html",
+      "buttonText": "подробнее",
+      "images": "images/works/Web-studio.jpg",
+      "link": "https://uri555459.github.io/Web-studio"
+    },
+    {
+      "id": "13",
+      "category": "html",
+      "buttonText": "подробнее",
+      "images": "images/works/Bankruptcy.jpg",
+      "link": "https://uri555459.github.io/Bankruptcy"
+    },
+    {
+      "id": "14",
+      "category": "javascript",
+      "buttonText": "подробнее",
+      "images": "images/works/Game.jpg",
+      "link": "https://uri555459.github.io/Game"
+    },
+    {
+      "id": "15",
+      "category": "javascript",
+      "buttonText": "подробнее",
+      "images": "images/works/Paint-js.jpg",
+      "link": "https://uri555459.github.io/Paint-js"
+    },
+    {
+      "id": "16",
+      "category": "react",
+      "buttonText": "подробнее",
+      "images": "images/works/coffee-shop-react.jpg",
+      "link": "https://uri555459.github.io/coffee-shop-react"
+    },
+    {
+      "id": "17",
+      "category": "react",
+      "buttonText": "подробнее",
+      "images": "images/works/github-api-react.jpg",
+      "link": "https://uri555459.github.io/github-api-react"
+    },
+    {
+      "id": "18",
+      "category": "react",
+      "buttonText": "подробнее",
+      "images": "images/works/posts-js-api-react.jpg",
+      "link": "https://uri555459.github.io/posts-js-api-react"
+    },
+    {
+      "id": "19",
+      "category": "react",
+      "buttonText": "подробнее",
+      "images": "images/works/todo-react.jpg",
+      "link": "https://uri555459.github.io/todo-react"
     }
   ]
 }
