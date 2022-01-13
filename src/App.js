@@ -17,7 +17,7 @@ function App() {
               Привет, меня зовут Юрий, и я создаю классные сайты
             </h1>
             <Button text='Обо мне' classes='header__wave-btn button' link='#about' />
-            <img src="images/down-arrow.svg" alt="Arrow down" className="header-arrow" />
+            <img src="portfolio/images/down-arrow.svg" alt="Arrow down" className="header-arrow" />
           </div>
         </div>
       </header >
