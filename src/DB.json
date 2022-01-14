@@ -107,27 +107,34 @@
     },
     {
       "id": "16",
+      "category": "javascript",
+      "buttonText": "подробнее",
+      "images": "images/works/weather-app.jpg",
+      "link": "https://uri555459.github.io/weather-app-js"
+    },
+    {
+      "id": "17",
       "category": "react",
       "buttonText": "подробнее",
       "images": "images/works/coffee-shop-react.jpg",
       "link": "https://uri555459.github.io/coffee-shop-react"
     },
     {
-      "id": "17",
+      "id": "18",
       "category": "react",
       "buttonText": "подробнее",
       "images": "images/works/github-api-react.jpg",
       "link": "https://uri555459.github.io/github-api-react"
     },
     {
-      "id": "18",
+      "id": "19",
       "category": "react",
       "buttonText": "подробнее",
       "images": "images/works/posts-js-api-react.jpg",
       "link": "https://uri555459.github.io/posts-js-api-react"
     },
     {
-      "id": "19",
+      "id": "20",
       "category": "react",
       "buttonText": "подробнее",
       "images": "images/works/todo-react.jpg",
