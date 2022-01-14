@@ -1,10 +1,30 @@
-import React from 'react'
-import Button from './components/Button/Button';
-import Cart from './components/Cart/Cart';
+import React, { useState } from 'react'
+import Button from './components/Button/Button'
+import Cart from './components/Cart/Cart'
+import Filter from './components/Filter/Filter'
 
 import data from './DB.json'
 
 function App() {
+  const [workItems, setWorkItems] = useState(data.cards)
+
+  const buttonHandler = event => {
+    if (event.target.parentElement.classList.contains('button')) {
+      event.preventDefault()
+    }
+    const category = event.target.parentElement.dataset.category
+    const workItems = data.cards.filter(item => {
+      if (category === 'all') {
+        return item
+      } else if (item.category === category) {
+        return item
+      }
+    })
+    return setWorkItems(workItems)
+  }
+
+
+
 
   return (
     <div className="wrapper">
@@ -16,7 +36,7 @@ function App() {
             <h1 className="header__title">
               Привет, меня зовут Юрий, и я создаю классные сайты
             </h1>
-            <Button text='Обо мне' classes='header__wave-btn button' link='#about' />
+            <Button buttonHandler={buttonHandler} text='Обо мне' classes='header__wave-btn button' link='#about' />
             <img src="images/down-arrow.svg" alt="Arrow down" className="header-arrow" />
           </div>
         </div>
@@ -37,7 +57,7 @@ function App() {
 
       <section className="expert">
         <div className="container">
-          <h3 className="section__title">Эксперт в</h3>
+          <h3 className="section__title">Технологии</h3>
           <div className="expert__cards">
             <div className="expert__item">
               <div className="expert__item_img">
@@ -57,17 +77,28 @@ function App() {
               </div>
               <h4 className="expert__cards_title">javascript</h4>
             </div>
+            <div className="expert__item">
+              <div className="expert__item_img">
+                <img src="images/expert/react.svg" alt="" />
+              </div>
+              <h4 className="expert__cards_title">react</h4>
+            </div>
+            <div className="expert__item">
+              <div className="expert__item_img">
+                <img src="images/expert/nodejs.svg" alt="" />
+              </div>
+              <h4 className="expert__cards_title">nodejs</h4>
+            </div>
           </div>
         </div>
       </section>
 
       <section className="works">
         <div className="container">
-          <h3 className="section__title">Последние работы</h3>
+          <h3 className="section__title">Мои работы</h3>
+          <Filter buttonHandler={buttonHandler} />
           <div className="works__inner">
-            {data.cards &&
-              data.cards.map((item, index) => <Cart key={index} {...item} />)
-            }
+            {workItems.length && workItems.map((item, index) => <Cart key={index} {...item} />)}
           </div>
         </div>
       </section>
@@ -77,10 +108,7 @@ function App() {
           <div className="footer__inner">
             <div className="footer__text  fadeInLeft">Нужен веб-разработчик? <span>Готов к работе!</span>
             </div>
-            <a href="#about" className="wave-btn  fadeInRight" data-target="anchor">
-              <span className="wave-btn__text">обо мне</span>
-              <span className="wave-btn__waves"></span>
-            </a>
+            <Button buttonHandler={buttonHandler} text='обо мне' link='#about' classes='button' />
           </div>
         </div>
       </footer>
