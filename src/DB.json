@@ -139,6 +139,13 @@
       "buttonText": "подробнее",
       "images": "images/works/todo-react.jpg",
       "link": "https://uri555459.github.io/todo-react"
+    },
+    {
+      "id": "21",
+      "category": "react",
+      "buttonText": "подробнее",
+      "images": "images/works/food-project-react.jpg",
+      "link": "https://uri555459.github.io/food-project-react"
     }
   ]
 }
