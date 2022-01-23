@@ -1,8 +1,6 @@
 import React from 'react'
 import Button from '../Button/Button'
 
-// import data from '../../DB.json'
-
 import './filter.scss'
 
 const Filter = ({ buttonHandler }) => {

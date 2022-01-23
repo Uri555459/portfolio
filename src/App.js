@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import Button from './components/Button/Button'
+import { Link } from 'react-scroll'
+
 import Cart from './components/Cart/Cart'
 import Filter from './components/Filter/Filter'
 
@@ -19,6 +20,7 @@ function App() {
       } else if (item.category === category) {
         return item
       }
+      return null
     })
     return setWorkItems(workItems)
   }
@@ -36,7 +38,10 @@ function App() {
             <h1 className="header__title">
               Привет, меня зовут Юрий, и я создаю классные сайты
             </h1>
-            <Button buttonHandler={buttonHandler} text='Обо мне' classes='header__wave-btn button' link='#about' />
+            <Link className='header__wave-btn button wave-btn' to='about' smooth={true} duration={1000}>
+              <span className='wave-btn__text'>Обо мне</span>
+              <span className='wave-btn__waves'></span>
+            </Link>
             <img src="images/down-arrow.svg" alt="Arrow down" className="header-arrow" />
           </div>
         </div>
@@ -108,7 +113,10 @@ function App() {
           <div className="footer__inner">
             <div className="footer__text  fadeInLeft">Нужен веб-разработчик? <span>Готов к работе!</span>
             </div>
-            <Button buttonHandler={buttonHandler} text='обо мне' link='#about' classes='button' />
+            <Link className='button wave-btn' to='about' smooth={true} duration={1000}>
+              <span className='wave-btn__text'>Обо мне</span>
+              <span className='wave-btn__waves'></span>
+            </Link>
           </div>
         </div>
       </footer>
