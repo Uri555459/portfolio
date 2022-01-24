@@ -147,5 +147,32 @@
       "images": "images/works/food-project-react.jpg",
       "link": "https://uri555459.github.io/food-project-react"
     }
+  ],
+  "technologyItems": [
+    {
+      "id": "sff1",
+      "title": "html5",
+      "images": "images/expert/html.png"
+    },
+    {
+      "id": "sff2",
+      "title": "css3",
+      "images": "images/expert/css.png"
+    },
+    {
+      "id": "sff3",
+      "title": "javascript",
+      "images": "images/expert/javascript.png"
+    },
+    {
+      "id": "sff4",
+      "title": "react",
+      "images": "images/expert/react.svg"
+    },
+    {
+      "id": "sff5",
+      "title": "nodejs",
+      "images": "images/expert/nodejs.svg"
+    }
   ]
 }

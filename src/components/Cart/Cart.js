@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../Button/Button';
 
-const Cart = ({ images, link = '', buttonText = '' }) => {
+const Cart = ({ images = '', link = '', buttonText = '' }) => {
   return (
     <div className="works__item">
       <img src={images} className="works__item_img" alt="" />
