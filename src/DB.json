@@ -146,6 +146,13 @@
       "buttonText": "подробнее",
       "images": "images/works/food-project-react.jpg",
       "link": "https://uri555459.github.io/food-project-react"
+    },
+    {
+      "id": "22",
+      "category": "react",
+      "buttonText": "подробнее",
+      "images": "images/works/land-plots.jpg",
+      "link": "https://uri555459.github.io/land-plots"
     }
   ],
   "technologyItems": [

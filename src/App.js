@@ -30,7 +30,9 @@ function App() {
 
   return (
     <div className="wrapper">
+
       <Header />
+
       <section className="about" id="about">
         <div className="container">
           <h3 className="section__title">Обо мне</h3>
@@ -62,7 +64,9 @@ function App() {
           </div>
         </div>
       </section>
+
       <Footer />
+
     </div >
   )
 }
