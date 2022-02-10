@@ -5,6 +5,7 @@ import TechnologyItem from './components/TechnologyItem/TechnologyItem'
 import Filter from './components/Filter/Filter'
 import Cart from './components/Cart/Cart'
 import Footer from './components/Footer/Footer'
+import { Contacts } from './components/Contacts/Contacts'
 
 import data from './DB.json'
 
@@ -66,7 +67,7 @@ function App() {
       </section>
 
       <Footer />
-
+      <Contacts />
     </div >
   )
 }
