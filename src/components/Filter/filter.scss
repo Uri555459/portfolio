@@ -4,6 +4,11 @@
   margin-bottom: 50px;
   &__btn {
     margin: 0 15px 20px;
+    &.active {
+      border-radius: 10px;
+      transition: all 0.8s ease 0.2s;
+      box-shadow: 0 0 40px rgb(15, 69, 246);
+    }
   }
 }
 
