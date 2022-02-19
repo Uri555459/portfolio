@@ -173,6 +173,16 @@
       "id": "sff5",
       "title": "nodejs",
       "images": "images/expert/nodejs.svg"
+    },
+    {
+      "id": "sff6",
+      "title": "mongoDB",
+      "images": "images/expert/mongodb.svg"
+    },
+    {
+      "id": "sff7",
+      "title": "express",
+      "images": "images/expert/express-js.svg"
     }
   ]
 }
