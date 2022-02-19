@@ -208,6 +208,9 @@ img {
   margin: 0 -15px;
 }
 .works__item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   width: calc(33.333% - 30px);
   min-width: 290px;
   height: 269px;

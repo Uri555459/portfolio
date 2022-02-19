@@ -43,13 +43,6 @@
       "link": "https://uri555459.github.io/hopeiko"
     },
     {
-      "id": "7",
-      "category": "html",
-      "buttonText": "подробнее",
-      "images": "images/works/Horizontal-bars.jpg",
-      "link": "https://uri555459.github.io/Horizontal-bars"
-    },
-    {
       "id": "8",
       "category": "html",
       "buttonText": "подробнее",
@@ -76,20 +69,6 @@
       "buttonText": "подробнее",
       "images": "images/works/Web-studio.jpg",
       "link": "https://uri555459.github.io/Web-studio"
-    },
-    {
-      "id": "12",
-      "category": "html",
-      "buttonText": "подробнее",
-      "images": "images/works/Bankruptcy.jpg",
-      "link": "https://uri555459.github.io/Bankruptcy"
-    },
-    {
-      "id": "13",
-      "category": "html",
-      "buttonText": "подробнее",
-      "images": "images/works/armchairs.jpg",
-      "link": "https://uri555459.github.io/armchairs"
     },
     {
       "id": "14",
