@@ -183,6 +183,11 @@
       "id": "sff7",
       "title": "express",
       "images": "images/expert/express-js.svg"
+    },
+    {
+      "id": "sff7sdfe",
+      "title": "redux",
+      "images": "images/expert/redux.svg"
     }
   ]
 }
