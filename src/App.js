@@ -42,7 +42,7 @@ function App() {
             процессе верстки продумываю каждую деталь.
             Верстка сайтов, интернет-магазинов и Landing Page (фиксированная, резиновая, адаптивная). Работаю
             удаленно.
-            В работе использую SCSS, БЕМ, Gulp, Jquery, Javascript, Git, CMS Wordpress, React.
+            В работе использую SCSS, БЕМ, Gulp, Jquery, Javascript, Git, CMS Wordpress, React, NodeJs, Express, MongoDB, Redux.
           </p>
         </div>
       </section>
