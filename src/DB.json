@@ -189,5 +189,35 @@
       "title": "redux",
       "images": "images/expert/redux.svg"
     }
+  ],
+  "contacts": [
+    {
+      "id":"ljgpofisddg7",
+      "href":"https://wa.me/79892602382",
+      "target":"_blank",
+      "imgPath": "./images/social/whatsap.svg",
+      "imgAlt": "Whatsap"
+    },
+    {
+      "id":"ghgghd5554",
+      "href":"https://t.me/yury_web_dev",
+      "target":"_blank",
+      "imgPath": "./images/social/telegram.svg",
+      "imgAlt": "Telegram"
+    },
+    {
+      "id":"jgfdklgdlllhkgf9",
+      "href":"mailto:uri5554@yandex.ru",
+      "target":"",
+      "imgPath": "./images/social/email.svg",
+      "imgAlt": "Email"
+    },
+    {
+      "id":"klgfnnlllhk435gf9",
+      "href":"https://join.skype.com/invite/dscJMLOyPGzd",
+      "target":"_blank",
+      "imgPath": "./images/social/skype.svg",
+      "imgAlt": "Skype"
+    }
   ]
 }

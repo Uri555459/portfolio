@@ -10,7 +10,7 @@ import { Contacts } from './components/Contacts/Contacts'
 import data from './DB.json'
 
 function App() {
-  const { cards, technologyItems } = data
+  const { cards, technologyItems, contacts } = data
   const [workItems, setWorkItems] = useState(cards)
 
   const buttonHandler = event => {
@@ -67,7 +67,7 @@ function App() {
       </section>
 
       <Footer />
-      <Contacts />
+      <Contacts contacts={contacts}/>
     </div >
   )
 }
