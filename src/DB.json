@@ -188,6 +188,11 @@
       "id": "sff7sdfe",
       "title": "redux",
       "images": "images/expert/redux.svg"
+    },
+    {
+      "id": "sff7sdfe1",
+      "title": "git / github",
+      "images": "images/expert/git.svg"
     }
   ],
   "contacts": [
